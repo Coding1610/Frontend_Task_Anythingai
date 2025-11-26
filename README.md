@@ -1,67 +1,90 @@
-Frontend Task – Secure CRUD Platform with Role-Based Access
+# Frontend Task
 
-It is a fully responsive MERN-stack application that provides secure authentication, complete CRUD functionality, Cloudinary avatar uploads, and strict role-based route protection.
-The project uses a modern blue-themed UI and maintains a clean separation between User and Admin roles.
+A full-stack web application with secure authentication and CRUD operations, built with modern technologies and featuring role-based access control.
 
-Project Objective
+## Tech Stack
 
-The primary goal of this project is to implement :
-1. Secure authentication using JWT and cookies
-Complete CRUD functionality
-Role-based access control (User and Admin)
-Fully protected frontend and backend routes
-Cloudinary integration for avatar image uploads
-Email notifications on user registration and admin user deletion
-A clean, responsive UI built with modern design tools
+### Frontend
+- **React** - UI framework
+- **Redux** - State management
+- **Tailwind CSS** - Styling framework
+- **shadcn/ui** - UI components
+- **Zod** - Schema validation
 
-Tech Stack
+### Backend
+- **Node.js** - Runtime environment
+- **Express** - Web framework
+- **JWT** - Authentication
+- **MongoDB Atlas** - Cloud database
+- **Cloudinary** - Image storage
 
-Frontend
-React
-Redux Toolkit
-Tailwind CSS
-ShadCN UI
-Zod (form validation)
+## Features
 
-Backend
-Node.js
-Express.js
-MongoDB Atlas
-JWT Authentication
-Bcrypt.js (password hashing)
+### Authentication & Security
+- Secure JWT-based authentication
+- Protected routes for both user and admin roles
+- Role-based access control (User & Admin)
+- Password encryption
+- Automatic logout on token expiration
 
-Additional Integrations
-Cloudinary (for avatar uploads)
-Nodemailer (email notifications)
+### User Interface
+- Modern blue color scheme UI
+- Fully responsive design
+- Clean and intuitive layout
+- 404 error page
+- Interactive dialog boxes
 
-Features
-Authentication & Security
-Secure JWT-based authentication stored in HTTP-only cookies
-7-day session expiry
-Login required to access any page
-Role-based authorization (User and Admin)
-Users cannot access Admin pages
-Admin cannot access User-only pages
-Passwords hashed using bcrypt
-404 Not Found page included
+## User Roles
 
-User Features
-View and update profile details
-Upload avatar image (Cloudinary)
-Dashboard with the ability to add comments
-"Comments By Me" section to view personal comments
-Search and filter comments by name
-Delete comments using a confirmation dialog
-Fully responsive interface
-Logout functionality
+#### Normal User
+- Personal dashboard
+- Add comments functionality
+- "Comments by Me" section with:
+  - Search functionality
+  - Filter and sort by name
+  - Delete comments with modern dialog
+- Profile management with avatar upload
+- Secure logout
 
-Admin Features
-Admin dashboard displaying total user count
-"Get All Users" page to view complete user data
-Delete any user using a confirmation dialog
-Automatic email notification sent to a user when their account is deleted
-Email System
+#### Admin User
+- Admin dashboard with user statistics
+- View all users with details
+- Delete users with confirmation dialog
+- Role-based page restrictions
 
-Emails are sent automatically when:
+### Email System
+- Welcome email on user registration
+- Notification email when admin deletes account
+- Automated email services
 
-A user registers
+### Responsive Design
+- The application is fully responsive and optimized for,
+- Desktop computers
+- Tablets
+- Mobile devices
+
+## 🔧 Environment Variables
+
+### Frontend (.env)
+```env
+VITE_API_BASE_URL=http://localhost:3000/api
+VITE_FIREBASE_API_KEY=firebase_api_key
+```
+
+### Backend .env)
+```env
+PORT=5000
+DATABASE_URI=your_mongodb_atlas_connection_string
+JWT_SECRET_KEY=your_jwt_secret_key
+CLOUD_NAME=your_cloudinary_name
+API_KEY=your_cloudinary_api_key
+API_SECRET=your_cloudinary_api_secret
+NODE_ENV=development
+EMAIL_USER=your_email_address
+EMAIL_PASS=your_email_password
+FRONTEND_URL=your_frontend_url
+```
+
+### API Documentation
+- For detailed API documentation including all endpoints, request bodies, and responses, please visit our Postman documentation
+- https://documenter.getpostman.com/view/44899783/2sB3dJzsF6
