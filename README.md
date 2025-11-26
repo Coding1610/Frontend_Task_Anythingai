@@ -63,7 +63,7 @@ A full-stack web application with secure authentication and CRUD operations, bui
 - Tablets
 - Mobile devices
 
-## nvironment Variables
+## Environment Variables
 
 ### Frontend (.env)
 ```env
