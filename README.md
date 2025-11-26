@@ -24,7 +24,7 @@ A full-stack web application with secure authentication and CRUD operations, bui
 - Secure JWT-based authentication
 - Protected routes for both user and admin roles
 - Role-based access control (User & Admin)
-- Password encryption
+- Password encryption using Bcrypt
 - Automatic logout on token expiration
 
 ### User Interface
@@ -34,7 +34,7 @@ A full-stack web application with secure authentication and CRUD operations, bui
 - 404 error page
 - Interactive dialog boxes
 
-## User Roles
+### User Roles
 
 #### Normal User
 - Personal dashboard
@@ -63,7 +63,7 @@ A full-stack web application with secure authentication and CRUD operations, bui
 - Tablets
 - Mobile devices
 
-## 🔧 Environment Variables
+## nvironment Variables
 
 ### Frontend (.env)
 ```env
@@ -85,6 +85,6 @@ EMAIL_PASS=your_email_password
 FRONTEND_URL=your_frontend_url
 ```
 
-### API Documentation
+## API Documentation
 - For detailed API documentation including all endpoints, request bodies, and responses, please visit our Postman documentation
 - https://documenter.getpostman.com/view/44899783/2sB3dJzsF6
