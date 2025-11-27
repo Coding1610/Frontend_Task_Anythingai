@@ -7,6 +7,9 @@ A full-stack web application with secure authentication and CRUD operations, bui
 <img className="flex justify-center items-center" src='./Screenshots/Screenshot 2025-11-26 214308.png' />
 <img className="flex justify-center items-center" src='./Screenshots/Screenshot 2025-11-26 214338.png' />
 <img className="flex justify-center items-center" src='./Screenshots/Screenshot 2025-11-26 214358.png' />
+<img className="flex justify-center items-center" src='./Screenshots/Screenshot 2025-11-26 112238.png' />
+<img className="flex justify-center items-center" src='./Screenshots/Screenshot 2025-11-26 112308.png' />
+<img className="flex justify-center items-center" src='./Screenshots/Screenshot 2025-11-26 112440.png' />
 
 ## Tech Stack
 
