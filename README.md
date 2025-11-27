@@ -2,6 +2,9 @@
 
 A full-stack web application with secure authentication and CRUD operations, built with modern technologies and featuring role-based access control.
 
+<img className="flex justify-center items-center" src='./Screenshots/Screenshot 2025-11-26 214234.png' />
+<img className="flex justify-center items-center" src='./Screenshots/Screenshot 2025-11-26 214300.png' />
+
 ## Tech Stack
 
 ### Frontend
